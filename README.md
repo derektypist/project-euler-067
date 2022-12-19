@@ -39,3 +39,8 @@ User Stories on function `maximumPathSumII(numTriangle)` taken from [FreeCodeCam
 The function `maximumPathSumII(triangle)` returns a number, where triangle is a 2D Array.
 
 A [PDF File](pdf/triangle.pdf) containing the triangle array is supplied.
+
+## Features
+
+Allows the user to show or hide the solution to the problem as described in [Project Euler 067](https://projecteuler.net/problem=67).  A PDF file of the triangle in array form can also be viewed.
+

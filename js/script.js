@@ -32,3 +32,9 @@ function maximumPathSumII(triangle) {
     }
     return myNewTriangle[0][0];
 }
+
+// Function to Hide Solution
+function hideSolution() {
+    let txt = "";
+    document.getElementById("solutioninfo").innerHTML = txt;
+}

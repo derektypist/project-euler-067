@@ -20,11 +20,13 @@ Information at [Project Euler 067](https://projecteuler.net/problem=67)
 
 **Getting Started**
 
-Select Show Solution to show the solution.  Select Hide Solution to hide the solution.
+Select Show Solution to show the solution.  Select Hide Solution to hide the solution.  You can also view the triangle in array form as a PDF File.
 
 **User Stories**
 
 As a user, I can show or hide the solution by selecting the appropriate button.
+
+As a user, I can view the PDF File of the triangle in array form.
 
 As a user, I expect the function `maximumPathSumII(numTriangle)` to return a number.
 
@@ -35,3 +37,5 @@ User Stories on function `maximumPathSumII(numTriangle)` taken from [FreeCodeCam
 **Information Architecture**
 
 The function `maximumPathSumII(triangle)` returns a number, where triangle is a 2D Array.
+
+A [PDF File](pdf/triangle.pdf) containing the triangle array is supplied.

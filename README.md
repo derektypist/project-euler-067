@@ -7,7 +7,7 @@ By starting at the top below and moving to adjacent numbers on the row below, th
      7   4
 
    2   4   6
-   
+
  8   5   9   3
 
 That is, 3 + 7 + 4 + 9 = 23.
@@ -15,3 +15,17 @@ That is, 3 + 7 + 4 + 9 = 23.
 Find the maximum total from top to bottom in `numTriangle`, a 2D array containing a triangle with one-hundred rows.
 
 Information at [Project Euler 067](https://projecteuler.net/problem=67)
+
+## UX
+
+**User Stories**
+
+As a user, I expect the function `maximumPathSumII(numTriangle)` to return a number.
+
+As a user, I expect the function `maximumPathSumII(numTriangle)` to return 7273.
+
+User Stories on function `maximumPathSumII(numTriangle)` taken from [FreeCodeCamp - Coding Interview Prep - Project Euler 067](https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-67-maximum-path-sum-ii)
+
+**Information Architecture**
+
+The function `maximumPathSumII(triangle)` returns a number, where triangle is a 2D Array.

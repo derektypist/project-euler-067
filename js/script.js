@@ -8,3 +8,27 @@ function showSolution() {
     // Display Solution in the Browser
     document.getElementById("solutioninfo").innerHTML = txt;
 }
+
+/*
+    Function to find the maximum total in a triangle as described in
+    https://projecteuler.net/problem=67
+*/
+function maximumPathSumII(triangle) {
+    const myNewTriangle = [];
+    for (let i=0;i<triangle.length;i++) {
+        myNewTriangle.push(triangle[i].slice());
+    }
+
+    for (let i=myNewTriangle.length-2;i>=0;i--) {
+        for (let j=i;j>=0;j--) {
+            let higherOption = 0;
+            if (myNewTriangle[i+1][j+1] > myNewTriangle[i+1][j]) {
+                higherOption = myNewTriangle[i+1][j+1];
+            } else {
+                higherOption = myNewTriangle[i+1][j];
+            }
+            myNewTriangle[i][j] += higherOption;
+        }
+    }
+    return myNewTriangle[0][0];
+}
